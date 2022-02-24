@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  web:
+    build: .
+    command: bash -c "make clean && make && ./proxy ${port}"
+    volumes:
+      - .:/code
+      - ./logs:/var/log/erss
+    ports:
+      - "${port}:${port}"

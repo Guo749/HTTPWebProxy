@@ -1,0 +1,152 @@
+remove and make directory to store fetch result
+test case  fetching origin files from one website 
+remove and make directory to store fetch result
+test case  fetching origin files from one website 
+remove and make directory to store fetch result
+test case  fetching origin files from one website 
+remove and make directory to store fetch result
+test case  fetching origin files from one website 
+remove and make directory to store fetch result
+test case  fetching origin files from one website 
+Files postproxy.txt and postnoproxy.txt differ
+*** file is different ***
+*** check the function ***
+http://localhost:12345
+http://www.example.com
+proxy_1/0index.html
+http://localhost:12345
+http://www.example.com
+========pass the post test========
+http://localhost:12345
+proxy_0/0index.html
+http://localhost:12345
+http://www.example.com
+========pass the post test========
+http://localhost:12345
+http://www.example.com
+http://www.example.com
+proxy_4/0index.html
+proxy_3/0index.html
+proxy_2/0index.html
+========pass the post test========
+========pass the post test========
+pass the get test
+pass the get test
+pass the get test
+pass the get test
+pass the get test
+http://localhost:12345
+http://vcm-24073.vm.duke.edu:15213
+proxy_1/1home.html
+pass the get test
+http://localhost:12345
+http://vcm-24073.vm.duke.edu:15213
+proxy_3/1home.html
+http://localhost:12345
+http://vcm-24073.vm.duke.edu:15213
+proxy_0/1home.html
+http://localhost:12345
+http://vcm-24073.vm.duke.edu:15213
+http://localhost:12345
+http://vcm-24073.vm.duke.edu:15213
+http://localhost:12345
+proxy_4/1home.html
+proxy_2/1home.html
+http://vcm-24073.vm.duke.edu:15213
+proxy_1/2csapp.c
+pass the get test
+pass the get test
+pass the get test
+pass the get test
+pass the get test
+http://localhost:12345
+http://vcm-24073.vm.duke.edu:15213
+proxy_3/2csapp.c
+http://localhost:12345
+http://vcm-24073.vm.duke.edu:15213
+proxy_4/2csapp.c
+http://localhost:12345
+http://vcm-24073.vm.duke.edu:15213
+proxy_0/2csapp.c
+http://localhost:12345
+http://vcm-24073.vm.duke.edu:15213
+proxy_2/2csapp.c
+pass the get test
+pass the get test
+http://localhost:12345
+http://vcm-24073.vm.duke.edu:15213
+proxy_1/3tiny.c
+pass the get test
+pass the get test
+http://localhost:12345
+http://vcm-24073.vm.duke.edu:15213
+http://localhost:12345
+http://vcm-24073.vm.duke.edu:15213
+proxy_4/3tiny.c
+proxy_3/3tiny.c
+pass the get test
+pass the get test
+pass the get test
+http://localhost:12345
+http://vcm-24073.vm.duke.edu:15213
+proxy_0/3tiny.c
+http://localhost:12345
+http://vcm-24073.vm.duke.edu:15213
+proxy_2/3tiny.c
+http://localhost:12345
+http://vcm-24073.vm.duke.edu:15213
+http://localhost:12345
+http://vcm-24073.vm.duke.edu:15213
+http://localhost:12345
+http://vcm-24073.vm.duke.edu:15213
+proxy_3/4godzilla.jpg
+proxy_4/4godzilla.jpg
+proxy_1/4godzilla.jpg
+pass the get test
+pass the get test
+pass the get test
+pass the get test
+http://localhost:12345
+http://vcm-24073.vm.duke.edu:15213
+proxy_0/4godzilla.jpg
+pass the get test
+http://localhost:12345
+http://vcm-24073.vm.duke.edu:15213
+proxy_4/5tiny
+http://localhost:12345
+http://localhost:12345
+http://vcm-24073.vm.duke.edu:15213
+proxy_3/5tiny
+http://vcm-24073.vm.duke.edu:15213
+proxy_2/4godzilla.jpg
+pass the get test
+pass the get test
+------------Summary---------------------
+test passed 6/6
+----------------------------------------
+pass the get test
+pass the get test
+------------Summary---------------------
+test passed 6/6
+----------------------------------------
+http://localhost:12345
+http://vcm-24073.vm.duke.edu:15213
+proxy_0/5tiny
+http://localhost:12345
+http://vcm-24073.vm.duke.edu:15213
+proxy_2/5tiny
+http://localhost:12345
+http://vcm-24073.vm.duke.edu:15213
+proxy_1/5tiny
+pass the get test
+------------Summary---------------------
+test passed 6/6
+----------------------------------------
+pass the get test
+------------Summary---------------------
+test passed 6/6
+----------------------------------------
+pass the get test
+------------Summary---------------------
+test passed 6/6
+----------------------------------------

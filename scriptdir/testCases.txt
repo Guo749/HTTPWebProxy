@@ -1,0 +1,46 @@
+1.POST
+    1) invalid request header
+        like this:
+            POST /api/register HTTP/1.1
+            User-Agent: PostmanRuntime/7.29.0
+            Accept: */*
+            Cache-Control: no-cache
+            Po
+
+        action: return bad request
+
+    2) invalid request body
+        like this
+            POST /api/register HTTP/1.1
+            User-Agent: PostmanRuntime/7.29.0
+            Accept: */*
+            Cache-Control: no-cache
+            Postman-Token: a0b794b3-a5b5-4a59-a6d0-76363bd2f5e1
+            Host: vcm-24073.vm.duke.edu:8000
+            Accept-Encoding: gzip, deflate, br
+            Connection: keep-alive
+            Content-Type: application/x-www-form-urlencoded
+            Content-Length: 3
+
+            a=
+        action: return bad request
+    3) no separator found
+        like this
+            POST /api/register HTTP/1.1
+            User-Agent: PostmanRuntime/7.29.0
+            Accept: */*
+            Cache-Control: no-cache
+            Postman-Token: a0b794b3-a5b5-4a59-a6d0-76363bd2f5e1
+            Host: vcm-24073.vm.duke.edu:8000
+            Accept-Encoding: gzip, deflate, br
+            Connection: keep-alive
+            Content-Type: application/x-www-form-urlencoded
+            Content-Length: 3
+        action: return bad request
+
+
+2 CONNECT (using firefox to test)
+
+
+3 GET
+    see more in test.sh

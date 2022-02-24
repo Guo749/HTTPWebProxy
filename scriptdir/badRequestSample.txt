@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<!-- In God, We Trust -->
+<html><head>
+<title>Error, We do not implement it</title>
+</head><body>
+<h1>Bad Request</h1>
+</body></html>
